@@ -17,15 +17,8 @@ body{
     
 }
 
-h1{
-    font-family: 'Poppins', open sans-serif;
-    text-align: center;
-}
-img{
-    max-width: 100%;
-}
 .container{
-    margin: auto;
+    margin: 70px;
     max-width: 100%;
     width: 1200px;
 
@@ -33,7 +26,13 @@ img{
 .flex{
     display: flex;
     margin: 100px 0;
+    width: 900px;
 }
+
+.flex img {
+    width: 100%;
+}
+
 .flex > div {
     flex: 1;
 }
@@ -45,6 +44,24 @@ img{
     margin-left: 0;
     text-align: center;
 }
+
+.title  {
+    margin-right: 160px;
+}
+
+.title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
 button{
     background-color: white;
     border-radius: 50px;
@@ -59,6 +76,9 @@ button{
     justify-content: flex-end;
     padding: 0;
     list-style-type: none;
+    position: absolute;
+    bottom: 30px;
+    right: 90px;
 }
 .social-links a {
     border-radius: 50%;
