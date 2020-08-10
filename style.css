@@ -116,6 +116,34 @@ button{
     }
 
     .social-links{
-        justify-content: center;
+        margin-right: 50px;
+        bottom: -230px;
     }   
+
+    .title {
+        margin-right: 160px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .flex #pantalla {
+        width: 270px;
+        margin: 40px;
+        margin-top: -10px;
+    }
+
+    #container #logo {
+        margin-left: 40px;
+        width: 200px;
+    }
 }
