@@ -24,11 +24,11 @@ body{
 }
 
 .flex #pantalla {
-    width: 900px;
+    width: 600px;
 }
 
 #container {
-    margin-top: -150px;
+    margin-top: -50px;
     margin-left: 30px;
 }
 
@@ -38,19 +38,20 @@ body{
 }
 
 .title {
-    margin: 90px;
+    margin: 60px;
+    margin-right: 80px;
 }
 
 .title h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     text-align: left;
     line-height: 40px;
 }
 
 .title p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -69,8 +70,8 @@ button{
     padding: 0;
     list-style-type: none;
     position: absolute;
-    bottom: 30px;
-    right: 90px;
+    bottom: -250px;
+    right: 70px;
 }
 .social-links a {
     border-radius: 50%;
