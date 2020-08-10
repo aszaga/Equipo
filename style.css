@@ -116,12 +116,12 @@ button{
     }
 
     .social-links{
-        margin-right: 50px;
-        bottom: -230px;
+        justify-content: center;
+        bottom: -330px;
     }   
 
     .title {
-        margin-right: 160px;
+        text-align: center;
     }
 
     .title h1 {
@@ -139,11 +139,12 @@ button{
     .flex #pantalla {
         width: 270px;
         margin: 40px;
+        margin-left: 60px;
         margin-top: -10px;
     }
 
     #container #logo {
-        margin-left: 40px;
+        margin-left: 60px;
         width: 200px;
     }
 }
